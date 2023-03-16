@@ -43,6 +43,8 @@ int main(int argc, char *argv[])
 	if(clnt_sock==-1)
 		error_handling("accept() error");  
 	
+	printf("CLIENT INFO <IP : %s || PORT : %d>", inet_ntoa(clnt_addr.sin_addr),ntohs(clnt_addr.sin_port));
+
 	write(clnt_sock, message, sizeof(message));
 	close(clnt_sock);	
 	close(serv_sock);
