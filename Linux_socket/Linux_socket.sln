@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Linux_socket", "Linux_socket.vcxproj", "{91AB6039-332C-4232-AD32-F02EB4A6635C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91AB6039-332C-4232-AD32-F02EB4A6635C}.Debug|x64.ActiveCfg = Debug|x64
+		{91AB6039-332C-4232-AD32-F02EB4A6635C}.Debug|x64.Build.0 = Debug|x64
+		{91AB6039-332C-4232-AD32-F02EB4A6635C}.Debug|x86.ActiveCfg = Debug|Win32
+		{91AB6039-332C-4232-AD32-F02EB4A6635C}.Debug|x86.Build.0 = Debug|Win32
+		{91AB6039-332C-4232-AD32-F02EB4A6635C}.Release|x64.ActiveCfg = Release|x64
+		{91AB6039-332C-4232-AD32-F02EB4A6635C}.Release|x64.Build.0 = Release|x64
+		{91AB6039-332C-4232-AD32-F02EB4A6635C}.Release|x86.ActiveCfg = Release|Win32
+		{91AB6039-332C-4232-AD32-F02EB4A6635C}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3EF6CC57-BBDD-4989-A036-9A7C9F1E69CA}
+	EndGlobalSection
+EndGlobal
